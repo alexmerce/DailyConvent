@@ -1,4 +1,4 @@
-![image](https://github.com/alexmerce/DailyConvent/assets/38787052/35ea0603-7583-4d2b-bb80-98171138ed0e)# DailyConvent
+# DailyConvent
 音视频字幕转换
 
 pyqt5练手
