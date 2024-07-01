@@ -35,8 +35,8 @@ def subtitle_convert(pageData):
     for item in pageData.subitile_list:
         if os.path.isfile(item):
             data = getData(item)
-            if outPath == None: outPath = item[0:item.rindex('.') + 1] + subtitleType.lrc.value
-            changeToSRT(data,outPath)
+            outPath = item[0:item.rindex('.') + 1] + subtitleType.lrc.value
+            changeToLRC(data,outPath)
         elif os.path.isdir(item):
             for p1 in os.listdir(item):
                 if p1.endswith('.vtt'):
